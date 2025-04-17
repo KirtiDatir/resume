@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Teacher Profiles - College Management System</title>
+  <link rel="stylesheet" href="css/style.css">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background-color: #f9f9f9;
+    }
+
+    header {
+      background-color: bisque;
+      padding: 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      color: #003399;
+      margin: 0;
+    }
+
+    main {
+      padding: 40px 20px;
+      max-width: 900px;
+      margin: auto;
+      text-align: center;
+    }
+
+    section h2 {
+      color: #333;
+      margin-bottom: 15px;
+    }
+
+    section p {
+      font-size: 16px;
+      line-height: 1.6;
+      color: #555;
+    }
+
+    .teacher-profile {
+      margin-top: 30px;
+    }
+
+    .teacher-profile table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-bottom: 20px;
+    }
+
+    .teacher-profile table, th, td {
+      border: 1px solid #ddd;
+    }
+
+    .teacher-profile th, td {
+      padding: 8px;
+      text-align: left;
+    }
+
+    .teacher-profile th {
+      background-color: #f2f2f2;
+    }
+
+    .back-button {
+      margin-top: 20px;
+      padding: 10px 20px;
+      background-color: #007BFF;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    .back-button:hover {
+      background-color: #0056b3;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Teacher Profiles</h1>
+  </header>
+
+  <main>
+    <section id="teacher-profile">
+      <h2>Teacher List</h2>
+      <p>View and manage teacher profiles below.</p>
+
+      <div class="teacher-profile">
+        <table>
+          <thead>
+            <tr>
+              <th>Teacher Name</th>
+              <th>Subject</th>
+              <th>Phone</th>
+              <th>Email</th>
+              <th>Action</th>
+            </tr>
+          </thead>
+          <tbody>
+            <!-- Example row, you can dynamically generate this using server-side scripting -->
+            <tr>
+              <td>Kirti Datir</td>
+              <td>Mathematics</td>
+              <td>(123) 456-7890</td>
+              <td>Kirti.dpcoe@example.com</td>
+              <td><button>Edit</button></td>
+            </tr>
+            <tr>
+              <td>Apurva Chavan</td>
+              <td>English</td>
+              <td>(987) 654-3210</td>
+              <td>apurva.smith@example.com</td>
+              <td><button>Edit</button></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <!-- Back Button -->
+      <button class="back-button" onclick="window.history.back();">Back</button>
+    </section>
+  </main>
+
+</body>
+</html>
