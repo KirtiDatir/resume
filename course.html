@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Course Management</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f9f9f9;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: bisque;
+      padding: 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      color: blue;
+      margin: 0;
+    }
+
+    .navbar {
+      text-align: center;
+      margin-top: 10px;
+    }
+
+    .navbar button {
+      margin: 5px;
+      padding: 10px 15px;
+      border: none;
+      background-color: #007BFF;
+      color: white;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    .navbar button:hover {
+      background-color: #0056b3;
+    }
+
+    main {
+      padding: 30px;
+    }
+
+    section#courses {
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    .course-list {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: center;
+    }
+
+    .course-item {
+      background-color: white;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      padding: 15px;
+      width: 280px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+      text-align: center;
+    }
+
+    .course-item h3 {
+      margin: 10px 0 5px;
+      color: #333;
+    }
+
+    .course-item p {
+      font-size: 14px;
+      color: #555;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Course Management</h1>
+    <nav class="navbar">
+      <button onclick="location.href='index.html'">Home</button>
+      <button onclick="location.href='course.html'">Courses</button>
+    </nav>
+  </header>
+
+  <main>
+    <section id="courses">
+      <h2 style="text-align: center;">Courses Offered</h2>
+      <p style="text-align: center;">Explore the different programs available in our college:</p>
+
+      <div class="course-list">
+        <div class="course-item">
+          <h3>Engineering</h3>
+          <p>Includes branches like Computer Science, Civil, Mechanical, and Electronics.</p>
+        </div>
+
+        <div class="course-item">
+          <h3>Pharmacy</h3>
+          <p>Learn about medicine, drug formulation, and pharmaceutical sciences.</p>
+        </div>
+
+        <div class="course-item">
+          <h3>Bachelor of Arts (BA)</h3>
+          <p>Programs in History, Political Science, English, and more.</p>
+        </div>
+
+        <div class="course-item">
+          <h3>Bachelor of Science (B.Sc)</h3>
+          <p>Specializations in Physics, Chemistry, Mathematics, and Life Sciences.</p>
+        </div>
+
+        <div class="course-item">
+          <h3>Bachelor of Commerce (B.Com)</h3>
+          <p>Focuses on accounting, finance, taxation, and business management.</p>
+        </div>
+
+        <div class="course-item">
+          <h3>Physiotherapy</h3>
+          <p>Training to treat physical disabilities and improve patient mobility.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+</body>
+</html>
