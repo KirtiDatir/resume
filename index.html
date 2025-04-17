@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home Page</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-image: url('https://www.w3schools.com/w3images/forest.jpg'); 
+      background-size: cover; 
+      background-position: center; 
+      background-repeat: no-repeat; 
+    }
+
+    header {
+      background-color: bisque;
+      padding: 20px;
+      text-align: center;
+      opacity: 0.9; /* Adds slight transparency */
+    }
+
+    header h1 {
+      color: rgb(56, 42, 210);
+      margin: 0;
+    }
+
+    .navbar {
+      text-align: center;
+      margin-top: 10px;
+    }
+
+    .navbar button {
+      margin: 5px;
+      padding: 10px 15px;
+      border: none;
+      background-color: #dfe6ea;
+      color: rgb(9, 6, 6);
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    .navbar button:hover {
+      background-color: #0056b3;
+    }
+
+    main {
+      padding: 30px;
+      text-align: center;
+      color: #fff; /* Text color to white for better visibility against the background */
+    }
+
+    h2 {
+      color: #fff; /* White color for header text */
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Welcome to College Management System</h1>
+  </header>
+
+  <div class="navbar">
+    <button onclick="location.href='index.html'">Home</button>
+    <button onclick="location.href='services.html'">Services</button>
+    <button onclick="location.href='about.html'">About Us</button>
+    <button onclick="location.href='student.html'">Student</button>
+    <button onclick="location.href='teacher.html'">Teacher</button>
+    <button onclick="location.href='course.html'">Courses</button>
+  </div>
+
+  <main>
+    <h2><b>Welcome to the Home Page</b></h2>
+    <p><b>This is a brief introduction to our college management system. Use the navigation bar above to explore other sections.</b></p>
+  </main>
+
+</body>
+</html>
