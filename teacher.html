@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Teacher Management - College Management System</title>
+  <link rel="stylesheet" href="css/style.css">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background-color: #f9f9f9;
+    }
+
+    header {
+      background-color: bisque;
+      padding: 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      color: #003399;
+      margin: 0;
+    }
+
+    nav.navbar {
+      margin-top: 10px;
+    }
+
+    nav.navbar button {
+      padding: 10px 15px;
+      margin: 5px;
+      background-color: #007BFF;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    nav.navbar button:hover {
+      background-color: #0056b3;
+    }
+
+    main {
+      padding: 40px 20px;
+      max-width: 900px;
+      margin: auto;
+      text-align: center;
+    }
+
+    section h2 {
+      color: #333;
+      margin-bottom: 15px;
+    }
+
+    section p {
+      font-size: 16px;
+      line-height: 1.6;
+      color: #555;
+    }
+
+    .teacher-facilities {
+      margin-top: 30px;
+      text-align: left;
+    }
+
+    .teacher-facilities ul {
+      list-style-type: square;
+      padding-left: 20px;
+    }
+
+    .teacher-facilities li {
+      font-size: 16px;
+      margin: 10px 0;
+    }
+
+    .teacher-facilities button {
+      padding: 10px 15px;
+      background-color: #28a745;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      margin-top: 20px;
+    }
+
+    .teacher-facilities button:hover {
+      background-color: #218838;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Teacher Management</h1>
+    <nav class="navbar">
+      <button onclick="location.href='index.html'">Home</button>
+      <button onclick="location.href='teacher_login.html'">Teacher Login</button>
+      <button onclick="location.href='teacher_register.html'">Register</button>
+    </nav>
+  </header>
+
+  <main>
+    <section id="teacher">
+      <h2>Teacher Information</h2>
+      <p>Manage teacher records, assign courses, and view all teacher-related activities here.</p>
+
+      <div class="teacher-facilities">
+        <h3>Available Facilities for Teachers</h3>
+        <ul>
+          <li>View and update teacher profiles.</li>
+          <li>Assign courses to teachers.</li>
+          <li>Track teacher attendance.</li>
+        </ul>
+        <button onclick="location.href='teacher_profile.html'">View Teacher Profiles</button>
+        <button onclick="location.href='assign_courses.html'">Assign Courses</button>
+        <button onclick="location.href='teacher_attendance.html'">Track Attendance</button>
+      </div>
+    </section>
+  </main>
+
+</body>
+</html>
