@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Assign Courses - College Management System</title>
+  <link rel="stylesheet" href="css/style.css">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background-color: #f9f9f9;
+    }
+
+    header {
+      background-color: bisque;
+      padding: 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      color: #003399;
+      margin: 0;
+    }
+
+    main {
+      padding: 40px 20px;
+      max-width: 900px;
+      margin: auto;
+      text-align: center;
+    }
+
+    section h2 {
+      color: #333;
+      margin-bottom: 15px;
+    }
+
+    section p {
+      font-size: 16px;
+      line-height: 1.6;
+      color: #555;
+    }
+
+    .assign-course-form {
+      margin-top: 30px;
+      text-align: left;
+    }
+
+    .assign-course-form label {
+      font-size: 16px;
+    }
+
+    .assign-course-form select, .assign-course-form input {
+      padding: 10px;
+      width: 100%;
+      margin: 10px 0;
+      border-radius: 5px;
+      border: 1px solid #ddd;
+    }
+
+    .assign-course-form button {
+      padding: 10px 15px;
+      background-color: #007BFF;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    .assign-course-form button:hover {
+      background-color: #0056b3;
+    }
+
+    .back-button {
+      margin-top: 20px;
+      padding: 10px 20px;
+      background-color: #007BFF;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    .back-button:hover {
+      background-color: #0056b3;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Assign Courses</h1>
+  </header>
+
+  <main>
+    <section id="assign-course">
+      <h2>Assign Courses to Teachers</h2>
+      <p>Select a teacher and assign a course to them below:</p>
+
+      <div class="assign-course-form">
+        <form>
+          <label for="teacher">Teacher</label>
+          <select id="teacher">
+            <option value="teacher1">Kirti Datir</option>
+            <option value="teacher2">Sakshi Chavan</option>
+            <!-- Add more teachers as needed -->
+          </select>
+
+          <label for="course">Course</label>
+          <select id="course">
+            <option value="math101">Mathematics 101</option>
+            <option value="eng101">English 101</option>
+            <!-- Add more courses as needed -->
+          </select>
+
+          <button type="submit">Assign Course</button>
+        </form>
+      </div>
+
+      <!-- Back Button -->
+      <button class="back-button" onclick="window.history.back();">Back</button>
+    </section>
+  </main>
+
+</body>
+</html>
