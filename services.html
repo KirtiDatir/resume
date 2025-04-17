@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Services - College Management System</title>
+  <link rel="stylesheet" href="css/style.css">
+  <style>
+    body {
+      background-color: #f5f5f5;
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    header h1 {
+      background-color: bisque;
+      color: blue;
+      text-align: center;
+      padding: 20px;
+      margin: 0;
+    }
+
+    nav.navbar {
+      text-align: center;
+      margin: 10px 0;
+    }
+
+    nav.navbar button {
+      margin: 5px;
+      padding: 10px 15px;
+      background-color: #007BFF;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    nav.navbar button:hover {
+      background-color: #0056b3;
+    }
+
+    .service-section {
+      padding: 30px;
+    }
+
+    .service-category {
+      margin: 20px auto;
+      padding: 20px;
+      border-radius: 8px;
+      max-width: 900px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      color: rgb(21, 12, 12);
+    }
+
+    .service-category h2 {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      margin-top: 0;
+    }
+
+    .service-category h2 img {
+      width: 40px;
+      height: 40px;
+    }
+
+    .service-category ul {
+      margin-left: 20px;
+      padding-left: 10px;
+    }
+
+    .service-category ul li {
+      margin: 8px 0;
+    }
+
+    /* Colors for different service sections */
+    .student-services {
+      background-color: #a2c9f3; /* Blue for Student */
+    }
+
+    .faculty-services {
+      background-color: #69ed88; /* Green for Faculty */
+    }
+
+    .admin-services {
+      background-color: #e3626f; /* Red for Admin */
+    }
+
+    .additional-features {
+      background-color: #ead28a; /* Yellow for Additional Features */
+      color: #333;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>College Management System - Services</h1>
+    <nav class="navbar">
+      <button onclick="location.href='index.html'">Home</button>
+      <button onclick="location.href='services.html'">Services</button>
+    </nav>
+  </header>
+
+  <main class="service-section">
+
+    <div class="service-category student-services">
+      <h2><img src="https://cdn-icons-png.flaticon.com/512/3135/3135768.png" alt="Student Icon"> Student Services</h2>
+      <ul>
+        <li>Online Registration & Admission</li>
+        <li>View Profile and Academic Records</li>
+        <li>Attendance Reports</li>
+        <li>Course Enrollment and Timetable</li>
+        <li>Exam Results and Marksheet Download</li>
+        <li>Fee Payment and Transaction History</li>
+        <li>Library Book Tracking and E-Resources</li>
+        <li>Notifications and Announcements</li>
+        <li>Apply for Certificates (Bonafide, ID, etc.)</li>
+      </ul>
+    </div>
+
+    <div class="service-category faculty-services">
+      <h2><img src="https://cdn-icons-png.flaticon.com/512/1995/1995574.png" alt="Teacher Icon"> Faculty Services</h2>
+      <ul>
+        <li>Teacher Login and Dashboard</li>
+        <li>Student Attendance Marking</li>
+        <li>Upload Grades and Assignments</li>
+        <li>Class Timetable Management</li>
+        <li>Share Course Material</li>
+        <li>Leave Application</li>
+      </ul>
+    </div>
+
+    <div class="service-category admin-services">
+      <h2><img src="https://cdn-icons-png.flaticon.com/512/847/847969.png" alt="Admin Icon"> Admin Services</h2>
+      <ul>
+        <li>User & Department Management</li>
+        <li>Academic Calendar Setup</li>
+        <li>Fee Structure Configuration</li>
+        <li>Hostel & Transport Allocation</li>
+        <li>Generate Reports & Analytics</li>
+        <li>Manage Announcements and Events</li>
+      </ul>
+    </div>
+
+    <div class="service-category additional-features">
+      <h2><img src="https://cdn-icons-png.flaticon.com/512/5583/5583286.png" alt="Features Icon"> Additional Features</h2>
+      <ul>
+        <li>Online Exams and Results</li>
+        <li>Alumni Portal</li>
+        <li>Mobile App Access</li>
+        <li>Live Chat / Helpdesk</li>
+        <li>SMS/Email Notifications</li>
+        <li>Dark Mode and Language Switcher</li>
+      </ul>
+    </div>
+
+  </main>
+
+</body>
+</html>
